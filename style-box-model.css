@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
 .card-1 h1 {
   /* Style for card 1 (your box model example */
   color: palevioletred;
   text-align: center;
-
+  font-family: "Coiny";
 }
 .center-with-line{
   display: inline-block;
@@ -14,6 +16,11 @@
     border-width: 5px;
     background-color: lightcyan;
 }
+.front {
+  font-family: "Kavivanar";
+  color: palevioletred;
+}
 .card-1 p {
   text-align: center;
+  font-family: "Kavivanar";
 }
