@@ -1,3 +1,23 @@
 /* Style for card-2 (your flexbox example) */
-.card-2 {
+.card-2 .card-front{
+  background-color: darkorchid;
+  border-style: groove;
+  border-width: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.card-2 .card-front div {
+  height: 0.5in;
+
+}
+
+.emoji {
+  font-size: 45px;
+}
+
+.card-2 h1 {
+  color: gold;
+  margin: 0;
 }
